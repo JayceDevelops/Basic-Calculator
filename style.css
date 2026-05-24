@@ -1,0 +1,134 @@
+:root {
+    --backgroud: #D3DAD9;
+    --frame: #37353E;
+    --operators: #DFD0B8;
+    --manipulators: #44444E;
+    --buttons: #715A5A;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--backgroud);
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Frame {
+    width: 17%;
+    height: 60vh;
+
+    background-color: var(--frame);
+
+    border-radius: 35px;
+
+    display: grid;
+    grid-template-rows: min-content auto;
+
+    box-shadow: 4px 4px 8px black;
+}
+
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#resultContent {
+    width: 90%;
+    height: 12vh;
+
+    background-color: var(--backgroud);
+
+    margin-top: 1.25rem;
+
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 5px grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+    gap: 0.5rem;
+    padding-right: 0.5rem;
+    overflow: hidden;
+}
+
+.result {
+    font-size: 2.5rem;
+}
+
+.lastOperation {
+    color: var(--frame);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+#buttons {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--backgroud);
+}
+
+button:active {
+    background-color: var(--backgroud);
+    color: var(--frame);
+}
+
+#plus {
+   grid-row: 3/4;
+}
+
+.number {
+    background-color: var(--buttons);
+}
+
+.operator {
+    background-color: var(--operators);
+    color: var(--frame);
+}
+
+.operator:active {
+    background-color: var(--frame);
+    color: var(--backgroud);
+}
+
+.manipulator {
+    background-color: var(--manipulators);
+}
+
+.result-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+

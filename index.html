@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="Frame">
+            <div id="result">
+                <div id="resultContent">
+                    <h1 class="resultText result result-font">0</h1>
+                    <h1 class="resultText lastOperation result-font"></h1>
+                </div>
+            </div>
+            <div id="buttons">
+                <div id="rowOne" class="row">
+                    <button id="clear" class="result-font manipulator">C</button>
+                    <button id="backspace" class="result-font manipulator">></button>
+                    <button id="percent" class="result-font manipulator">%</button>
+                    <button id="divide" class="result-font operator">/</button>
+                </div>
+                <div id="rowTwo" class="row">
+                    <button id="seven" class="result-font number">7</button>
+                    <button id="eight" class="result-font number">8</button>
+                    <button id="nine" class="result-font number">9</button>
+                    <button id="multiply" class="result-font operator">x</button>
+                </div>
+                <div id="rowThree" class="row">
+                    <button id="four" class="result-font number">4</button>
+                    <button id="five" class="result-font number">5</button>
+                    <button id="six" class="result-font number">6</button>
+                    <button id="minus" class="result-font operator">-</button>
+                </div>
+                <div id="rowFour" class="row">
+                    <button id="one" class="result-font number">1</button>
+                    <button id="two" class="result-font number">2</button>
+                    <button id="three" class="result-font number">3</button>
+                    <button id="plus" class="result-font operator">+</button>
+                </div>
+                <div id="rowFive" class="row">
+                    <button id="point" class="result-font manipulator">.</button>
+                    <button id="zero" class="result-font number">0</button>
+                    <button id="absolute" class="result-font manipulator">+/-</button>
+                    <button id="equals" class="result-font operator">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
