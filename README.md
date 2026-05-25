@@ -1,4 +1,4 @@
-"""# 🧮 Interactive Web Calculator
+# 🧮 Interactive Web Calculator
 
 A sleek, and modern digital calculator application built from scratch using semantic HTML5, custom CSS3, and vanilla JavaScript. This project implements clean computational state tracking, and a structured layout to deliver an accurate and intuitive user experience.
 
